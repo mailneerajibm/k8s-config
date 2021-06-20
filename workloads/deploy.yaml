@@ -1,9 +1,10 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  creationTimestamp: null
+  creationTimestamp:
   labels:
-    app: catsndogs 
+    app: catsndogs
   name: catsndogs-deploy
   namespace: cnd
   annotations:
@@ -13,12 +14,12 @@ spec:
   replicas: 4
   selector:
     matchLabels:
-      app: catsndogs 
+      app: catsndogs
   template:
     metadata:
       labels:
-        app: catsndogs 
+        app: catsndogs
     spec:
       containers:
-      - image: 216888949630.dkr.ecr.us-east-1.amazonaws.com/catsndogs:latest 
+      - image: 216888949630.dkr.ecr.us-east-1.amazonaws.com/catsndogs:93b532d1
         name: catsndogs
