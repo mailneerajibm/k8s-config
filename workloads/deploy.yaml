@@ -10,7 +10,7 @@ metadata:
   # Container Image Automated Updates
     flux.weave.works/automated: "true"
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: catsndogs 
