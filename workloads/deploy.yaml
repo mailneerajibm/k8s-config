@@ -6,6 +6,9 @@ metadata:
     app: catsndogs 
   name: catsndogs-deploy
   namespace: cnd
+  annotations:
+  # Container Image Automated Updates
+    flux.weave.works/automated: "true"
 spec:
   replicas: 2
   selector:
