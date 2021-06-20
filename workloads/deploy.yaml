@@ -21,5 +21,5 @@ spec:
         app: catsndogs
     spec:
       containers:
-      - image: 216888949630.dkr.ecr.us-east-1.amazonaws.com/catsndogs:d04dd535
+      - image: 216888949630.dkr.ecr.us-east-1.amazonaws.com/catsndogs:8745662a
         name: catsndogs
